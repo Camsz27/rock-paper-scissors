@@ -1,0 +1,50 @@
+html {
+    font-family: 'Wendy One';
+    color:green;
+    background-color: rgba(105, 105, 105, 0.144);
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a {
+    font-size: 35px;
+    margin: 0 200px;
+}
+
+.result {
+    margin: 0 200px;
+}
+
+.options {
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+}
+
+button {
+    border: 6px solid black;
+}
+
+.final {
+    font-size: 50px;
+}
+
+#reset {
+    border: solid black;
+    width: 250px;
+    height: 120px;
+    font-size: 50px;
+    font-family: 'Wendy One';
+}

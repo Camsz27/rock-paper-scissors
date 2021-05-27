@@ -1,10 +1,38 @@
 <html>  
 <head>  
-<meta charset="utf-8">  
-<title>Rock Paper Scissors</title>  
+    <meta charset="utf-8">  
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Wendy One' rel='stylesheet'> 
 </head>  
-<body>
-<script src="rock.js">  
+<body class='body'>
+    <div>
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class='information'>
+        <h2 id="message">Start game</h2>
+        <h2 id="score">Score 0 - 0</h2>
+    </div>
+    <div class='players'>
+        <a>Player</a>
+        <a>Computer</a>
+    </div>
+    <div class='choose'>
+        <img src="https://cdn1.iconfinder.com/data/icons/feather-2/24/scissors-128.png" alt="Scissors" class="result player">
+        <img src="https://cdn1.iconfinder.com/data/icons/feather-2/24/scissors-128.png" alt="Scissors" class="result computer">
+    </div>
+    <div id='choices'>
+        <button id='rock'>
+            <img src="https://cdn2.iconfinder.com/data/icons/space-82/64/asteroid-2-128.png" alt="Rock" class="options">
+        </button>
+        <button id='paper'>
+            <img src="https://cdn4.iconfinder.com/data/icons/48-bubbles/48/12.File-128.png" alt="Paper" class="options">
+        </button>
+        <button id='scissors'>
+            <img src="https://cdn1.iconfinder.com/data/icons/feather-2/24/scissors-128.png" alt="Scissors" class="options">
+        </button>
+    </div>
+<script src="game.js">  
 </script>  
 </body>  
 </html> 
