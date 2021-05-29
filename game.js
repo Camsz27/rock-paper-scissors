@@ -83,8 +83,8 @@ function resetGame() {
         finalMessage = winningMessage;
     }
     divChoices.remove();
-    divChoose.remove();
-    players.remove();
+    //divChoose.remove();
+    //players.remove();
     message = finalMessage;
     changeMessage();
     text.classList.add('final');
@@ -103,8 +103,8 @@ function newGame(){
     resetButton.remove();
     changeMessage();
     changeScore();
-    container.appendChild(players)
-    container.appendChild(divChoose);
+    //container.appendChild(players)
+    //container.appendChild(divChoose);
     container.appendChild(divChoices);
     
 }
